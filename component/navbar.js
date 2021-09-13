@@ -10,7 +10,13 @@ function navbar(){
         <li>news</li>
 
     </ul>
-</div>`
+</div>
+<div id="randomArticle">
+
+</div>
+`
+
+
 }
 
 export default navbar;
