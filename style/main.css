@@ -5,21 +5,22 @@
 }
 
 #randomArticle{
-    max-width: 90%;
+    width: 700px;
     margin: 10px auto;
     display: grid;
-    /* text-align: center; */
     gap: 20px;
+    grid-template-columns: 30% 30% 30% 30%;
 
 }
 #randomArticle>div{
-    display: flex;
+    /* display: flex; */
+    width: 200px;
 }
 
 
 
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
