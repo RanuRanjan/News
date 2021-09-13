@@ -4,7 +4,7 @@ function navbar(){
         <li><a href="">Home</a></li>
         <li id="div_se">
             <input type="text" placeholder="topic you want to Search" id="search">
-            <span><button onclick="Search()">Search</button></span>
+            <span><button onclick="resultSearch()">Search</button></span>
         </li>
         
         <li><a href="">news</a></li>

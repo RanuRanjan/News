@@ -6,7 +6,7 @@ async  function showRandom(){
 
       var article= document.getElementById("randomArticle")
      
-    data.articles.forEach(({title,urlToImage,author}) => {
+    data.articles.forEach(({title,urlToImage}) => {
       
         let news_div=document.createElement("div")
         // news_div.setAttribute('class',"new")
@@ -26,7 +26,7 @@ async  function showRandom(){
         article.append(news_div)
 
 
-        titles.addEventListener()
+        // titles.addEventListener('click',function())
     })
 
 

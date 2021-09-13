@@ -6,7 +6,7 @@
 
 #randomArticle{
     max-width: 90%;
-    margin: auto;
+    margin: 10px auto;
     display: grid;
     /* text-align: center; */
     gap: 20px;
