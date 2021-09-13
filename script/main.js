@@ -2,7 +2,7 @@ async  function showRandom(){
       let res =await fetch (`
       https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=2cd1f0a106ac484f94247b952655f786`)
       let data =await res.json();
-      console.log(data);
+    //   console.log(data);
 
       var article= document.getElementById("randomArticle")
      
@@ -24,7 +24,9 @@ async  function showRandom(){
 
         news_div.append(image,titles)
         article.append(news_div)
-   
+
+
+        titles.addEventListener()
     })
 
 

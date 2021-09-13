@@ -1,13 +1,13 @@
 function navbar(){
     return `<div id="main">
     <ul>
-        <li>Home</li>
-        <li>
+        <li><a href="">Home</a></li>
+        <li id="div_se">
             <input type="text" placeholder="topic you want to Search" id="search">
             <span><button onclick="Search()">Search</button></span>
         </li>
-        <li>Search</li>
-        <li>news</li>
+        
+        <li><a href="">news</a></li>
 
     </ul>
 </div>

@@ -3,9 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-#main{
-    max-width: 80%;
-}
+
 #randomArticle{
     max-width: 90%;
     margin: auto;
