@@ -6,8 +6,8 @@ function navbar(){
             <input type="text" placeholder="topic you want to Search" id="search">
             <span><button onclick="resultSearch()">Search</button></span>
         </li>
-        <li><a href="Search.html">Search</a></li>
-        <li><a href="news.html">news</a></li>
+        <li><a href="Search.html">Search News</a></li>
+    
 
     </ul>
 </div>
